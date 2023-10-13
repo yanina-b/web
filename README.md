@@ -1,5 +1,5 @@
 # web
-#index_1
+index_1
 <!DOCTYPE html>
 <html lang="ru">
 <head>
