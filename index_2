@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Second projects</title>
+</head>
+<body>
+	<section>
+		<form action="#">
+			<div>
+				<label for="name">Имя подавана:</label>
+				<input type="text" id="name" name="name">
+			</div>
+			<div>
+				<label for="email">Почта:</label>
+				<input type="email" id="email" name="email">
+			</div>
+			<div>
+				<label for="tel">Телефон:</label>
+				<input type="tel" id="tel" name="tel">
+			</div>
+			<div>
+				<label for="date">Дата рождения:</label>
+				<input type="date" id="date" name="date">
+			</div>
+			<div>
+				<label for="file">Фото бейджа:</label>
+				<input type="file" id="file" name="file">
+			</div>
+			<div>
+				<label for="range">Длинна меча:</label>
+				<input type="range" id="range" name="range">
+			</div>
+			<div>
+				<label for="side">Какую сторону выберешь ты?:</label>
+				<div>
+					<div>
+						<label for="side">Светлую:</label>
+						<input type="radio" id="side" name="side">
+					</div>
+					<div>
+						<label for="side">Темную:</label>
+						<input type="radio" id="side" name="side">
+					</div>
+				</div>
+			</div>
+			<div>
+				<label for="color">Цвет меча:</label>
+				<input type="color" id="color" name="color">
+			</div>
+			<div>
+				<select>
+					<option>Ого.</option>
+					<option>.огО</option>
+				</select>
+			</div>
+			<div>
+				<label for="password">Пароль:</label>
+				<input type="password" id="password" name="password">
+			</div>
+			<div>
+				<button type="button">Стать джедаем</button>
+			</div>
+		</form>
+	</section>
+</body>
+</html>
