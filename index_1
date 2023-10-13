@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First Project!</title>
+</head>
+<body>
+	<section>
+		<img src="https://fs.edu21.cap.ru/content22/15/org-test/6274731e-1502-4a36-b052-b1c0def75088/gora_sm.jpeg" alt="Логотип РТУ МИРЭА">
+		<h1>Заголовок 1</h1>
+		<h2>Заголовк 2</h2>
+		<h3>Заголовк 3</h3>
+		<h4>Заголовк 4</h4>
+		<h5>Заголовк 5</h5>
+		<h6>Заголовк 6</h6>
+		<span>span text1</span>
+		<span>span text2</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<ul>
+			<li>Li text 1</li>
+			<li>Li text 2</li>
+			<li>Li text 3</li>
+			<li>Li text 4</li>
+		</ul>
+		<ol>
+			<li>Li text 1</li>
+			<li>Li text 2</li>
+			<li>Li text 3</li>
+			<li>Li text 4</li>
+		</ol>
+
+		<p>Мы учимся в <a href="https://www.mirea.ru" target="_blank">РТУ МИРЭА</a></p>
+	</section>
+</body>
+</html>
