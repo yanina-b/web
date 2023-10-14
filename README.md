@@ -126,14 +126,14 @@
 При этом, стили прописанные через ***атрибут style*** в теге будут иметь ***высший приоритет*** и применяться независимо от стилей в файле или head.
 
 **html:**
-<div class="title">
+"<div class="title">
     <h1 id="title_h1">web-разработка</h1>
     <p>Курс <span>мемов</span> Web-разработки в РТУ МИРЭА</p>
     <a href="#">Присоединиться к беседе</a>
-</div>
+</div>"
 
 **css**
-.title{
+".title{
     text-align: center;
     margin-top: 75px;
 }
@@ -153,4 +153,4 @@
 .title p span{
     text-decoration: line-through;
     color: #525252;
-}
+}"
