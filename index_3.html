@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Третий проект</title>
+</head>
+<body>
+    <nav>
+        <p>
+            <img src="img/logo.png" alt="Изображение смайлик">
+            Сайт РТУ МИРЭА: <a href="https://www.mirea.ru" target="_blank"> mirea</a>
+            Портал дист. обучения: <a href="https://online-edu.mirea.ru/" target="_blank"> edu.mirea </a>
+            Личный кабинет студента: <a href="https://lk.mirea.ru/"> lk.mirea </a>
+        </p>
+    </nav>
+    <section>
+        <h1>
+            Привет! Ты на сайте-навигаторе РТУ МИРЭА!
+        </h1>
+        <h3>
+            Сверху представлены актуальные ссылки на важные ресурсы.
+        </h3>
+        <p>
+            Ты можешь дополнить этот список. Для этого заполни форму ниже.
+        </p>
+        <form action="#">
+            <div>
+                <label for="student"> Вы студент МИРЭА? </label>
+                    <div>
+                        <label for="student"> Да </label>
+                        <input type="radio" name="student" id="student">
+                        <label for="student"> Нет </label>
+                        <input type="radio" name="student" id="student">
+                        <label for="student"> Выпускник </label>
+                        <input type="radio" name="student" id="student">
+                    </div>
+            </div>
+            <div>
+                <label for="name"> Введите имя: </label>
+                <div>
+                    <input type="text" name="name" placeholder="Введите имя">
+                </div>
+            </div>
+            <div>
+                <label for="email"> Ведите Email </label>
+                <div>
+                    <input type="email" name="email" placeholder="Введите Email">
+                </div>
+            </div>
+            <div>
+                <label for="name_resource"> Укажите название ресурса: </label>
+                <div>
+                    <input type="text" name="name_resource" placeholder="Название ресурса" >
+                </div>
+            </div>
+            <div>
+                <label for="url"> Приложите ссылку на ресурс: </label>
+                <div>
+                    <input type="url" name="url" placeholder="Ссылка" >
+                </div>
+            </div>
+            <div>
+                <label for="comment">Оставьте свои комментарии: </label>
+                <div>
+                    <p> <textarea name="comment" id="comment" cols="20" rows="5"></textarea></p>
+                </div>
+            </div>
+            <div>
+                <button type="button"> Отправить </button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>©Крутой ресурс. Все права защищены. </p>
+    </footer>
+</body>
+</html>
